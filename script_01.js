@@ -39,7 +39,7 @@ console.log("Inhalt: " + test);
 
 
 /***** Variblen 2 *****/
-
+/*
 // Deklaration
 let ageJohn, ageMark;
 let birthYearJohn, birthYearMark;
@@ -59,11 +59,22 @@ birthYearMark = year - ageMark;
 console.log("Aktuelles Jahr: " + year );
 console.log("birthYearJohn: " + birthYearJohn);
 console.log("birthYearMark : " + birthYearMark);
+*/
 
+/***** Variblen 3 *****/
 
+let ageJohn, ageMark
 
+ageJohn = 55;
+ageMark = 30;
 
+// Operation (Vergleich/Test)
 
+let isJohnOlder = (ageJohn > ageMark);
+console.log(isJohnOlder);
+
+let isMarkOlder = (ageMark > ageJohn);
+console.log(isMarkOlder);
 
 
 
