@@ -49,12 +49,16 @@ let date = new Date();
 let year = date.getFullYear();
 console.log(year);
 console.log(date);
-ageJohn = 25;
+ageJohn = 55;
 ageMark = 30;
 
+//Operation (Differenz)
+birthYearJohn = year - ageJohn;
+birthYearMark = year - ageMark;
 
-
-
+console.log("Aktuelles Jahr: " + year );
+console.log("birthYearJohn: " + birthYearJohn);
+console.log("birthYearMark : " + birthYearMark);
 
 
 
