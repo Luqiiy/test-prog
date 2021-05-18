@@ -36,3 +36,54 @@ let test; // Deklaration
 console.log("Typ: " + typeof test);
 console.log("Inhalt: " + test);
 */
+
+
+/***** Variblen 2 *****/
+
+// Deklaration
+let ageJohn, ageMark;
+let birthYearJohn, birthYearMark;
+
+// Wertzuweisung | Assignment
+let date = new Date();
+let year = date.getFullYear();
+console.log(year);
+console.log(date);
+ageJohn = 25;
+ageMark = 30;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
