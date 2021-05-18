@@ -62,7 +62,7 @@ console.log("birthYearMark : " + birthYearMark);
 */
 
 /***** Variblen 3 *****/
-
+/*
 let ageJohn, ageMark
 
 ageJohn = 55;
@@ -75,9 +75,19 @@ console.log(isJohnOlder);
 
 let isMarkOlder = (ageMark > ageJohn);
 console.log(isMarkOlder);
+*/
 
+/***** Variblen 4 *****/
 
+let nix;
+let ageJohn = 55;
+let firstName = "Anthony";
+let isJohnOlder = (10 > 5);
 
+console.log("nix " + typeof nix);
+console.log("ageJohn : " + typeof ageJohn);
+console.log("firstName: " + typeof firstName);
+console.log("isJohnOlder: " + typeof isJohnOlder);
 
 
 
